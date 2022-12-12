@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 // use api/users in frontend
 Route::get('/users', function(){
-  return User::all();
+  return User::paginate(10);
 });
 
 // use api/users/search in frontend
