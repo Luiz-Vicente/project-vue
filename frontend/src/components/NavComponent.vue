@@ -1,9 +1,9 @@
 <template>
   <div>
-    <router-link to="/">Home</router-link>
-    <router-link to="/search">Search</router-link>
-    <router-link to="/list">List</router-link>
-    <router-link to="/user/create">User create</router-link>
+    <router-link class="mx-2" to="/">Home</router-link>
+    <router-link class="mx-2" to="/search">Search</router-link>
+    <router-link class="mx-2" to="/list">List</router-link>
+    <router-link class="mx-2" to="/user/create">User create</router-link>
   </div>
 </template>
 
