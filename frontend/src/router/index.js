@@ -33,6 +33,14 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/V-Search.vue"),
     },
+    {
+      path: "/dolar-hoje",
+      name: "dolar-hoje",
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import("../views/V-DolarToday.vue"),
+    },
   ],
 });
 
